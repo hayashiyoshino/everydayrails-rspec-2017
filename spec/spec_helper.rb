@@ -93,4 +93,6 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+  # FactoryBotの名前空間を省略
+  config.include FactoryBot::Syntax::Methods
 end
